@@ -1,0 +1,100 @@
+
+.home-container{
+    background-color: rgba(9, 18, 39, 1);
+    min-height: 100vh;
+}
+
+.diatrack-logo img{
+        margin-top: 14px;
+        width: 150px;
+       
+}
+.text-intro{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .text-container h1, p{
+    color: white;
+    text-align: center;
+}
+.text-container h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    
+}
+.button-container{   
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/*Phones*/
+@media (max-width: 480px) {
+    .diatrack-logo img{
+        margin-top: 14px;
+        width: 80px;
+    }
+    .text-container h1{
+    font-size: 1.9rem;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    
+}
+.card-container{
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.text-container p{
+    margin: 0 10px;
+  
+}
+       
+}
+
+@media (min-width: 481px ) {
+   
+    .text-container h1{
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    
+}
+@media (min-width: 481px ) and (max-width: 768px) {
+     .diatrack-logo img
+    {
+      width: 95px;
+    }
+     .card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25px
+    
+    } 
+
+}
+
+
+/* Tablets (≥ 768px) */
+@media (min-width: 768px ) {
+ 
+}
+ 
+
+
+/* Desktops (≥ 992px) */
+@media (min-width: 992px) {
+  
+}

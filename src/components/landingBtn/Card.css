@@ -1,0 +1,46 @@
+
+.purple-box{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color:rgba(195, 23, 181, 0.3) ;
+}
+
+.blood-sugar{
+    text-align: center;
+}
+.num-para{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+.unit-para{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.title{
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align-last: left;
+    margin-top: 10px;
+}
+.describe{
+    margin-top: 8px;
+    text-align-last: left;
+}
+
+@media (max-width: 767px) {
+   .card-contain{
+    border: 2px solid rgba(195, 23, 181, 0.3);
+    border-radius: 10px;
+    border-top: none;
+   }
+   .title{
+    margin-left: 10px;
+   }
+   .describe{
+    margin-left: 10px;
+   }
+
+}

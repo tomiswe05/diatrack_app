@@ -1,0 +1,46 @@
+.btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+
+/*Phones*/
+@media (max-width: 480px) {
+    .btn{
+        border: 2px solid #C317B5;
+        padding: 10px 20px;
+        border-radius: 15px;
+        background-color: #C317B5;
+    }
+    
+}
+
+@media (min-width: 481px ) {
+     .btn{
+        border: 2px solid #C317B5;
+        padding: 14px 28px;
+        border-radius: 15px;
+        background-color: #C317B5;
+    }
+ 
+}
+
+/* Tablets (≥ 768px) */
+@media (min-width: 768px ) {
+    .btn{
+        border: 2px solid #C317B5;
+        padding: 12px 36px;
+        border-radius: 16px;
+        background-color: #C317B5;
+    }
+ 
+   
+}
+ 
+
+
+/* Desktops (≥ 992px) */
+@media (min-width: 992px) {
+    
+}
