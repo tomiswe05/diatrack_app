@@ -47,10 +47,13 @@ function Signup(){
 
                 <div className="form-part">
                    <div className='form-inner'>
+                    {/* Form description section */}
                     <div className="form-textdesc">
                          <h3>Join DiabetesTracker for free</h3>
                         <p>Experience a seamless health tracking journey</p>
                     </div>
+                   
+                   {/* Form section */}
                    <div className="form">
                      <form action="" onSubmit={handleSubmit}>
                         <Inputbox type="text" placeholder="Enter Username" value={formData.name} onChange={handleChange} name="name"/>
@@ -61,13 +64,13 @@ function Signup(){
                          onFocus={() => setConfirmFocus(true)}
                          onBlur={() => setConfirmFocus(false)}/>
 
-
+                        {/* Error message for password mismatch */}
                         {confirmFocus && formData.confirmPassword &&formData.password !== formData.confirmPassword && (<p className="error-message">Passwords do not match</p>)}
 
+                        {/* Show password toggle */}
                         <ShowPassword showPassword={showPassword} setShowPassword={setShowPassword} />
 
-                        
-
+                        {/* Submit button */}
                         <button type='submit' >Sign up</button>
                         
                      </form>
