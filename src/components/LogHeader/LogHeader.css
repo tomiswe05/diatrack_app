@@ -1,0 +1,34 @@
+.log-header{
+    background-color: #282828;
+    width: 100%;
+    height: 50px;
+   
+}
+.sec-contain{
+     margin: 0 27px;
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+}
+.logo-img{
+    width: 120px;
+}
+.navlinks ul {
+    display: flex;
+    justify-content: space-around;
+}
+.navlinks{
+     width: 50%;
+}
+.list{
+    text-decoration: none;
+    color: white;
+}
+.navlinks ul li{
+    list-style: none;
+}
+.user-img{
+    width: 60px;
+}

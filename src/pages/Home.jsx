@@ -10,9 +10,7 @@ function Home(){
         <div className="home-container">
           {/*Diatrack Logo */}
             <div className='diatrack-logo'>
-       
                 <img src="/diatrack.svg" alt="Diatrack Logo" />
-                
             </div>
              
              {/* Text Description */}

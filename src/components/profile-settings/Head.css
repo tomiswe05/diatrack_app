@@ -1,0 +1,41 @@
+.head-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    
+}
+.profiletitle h1{
+    margin-left: 29.5px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 13px;
+
+}
+
+/*Phones*/
+@media (max-width: 480px) {
+    .head-contain h3{
+        font-size: 16px;
+
+  }
+.head-contain p{
+    display: none;
+}
+    
+       
+}
+
+
+/* Tablets (≥ 768px) */
+@media (max-width: 768px ) {
+    .head-contain h3{
+        font-size: 16px;
+
+  }
+.head-contain p{
+    font-size: 14px;
+}
+ 
+}
+ 

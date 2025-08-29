@@ -1,0 +1,114 @@
+.profile-formContain{
+    background-color: #181818;
+    min-height: 100dvh;
+    color: white;
+
+}
+.profile-form{
+    margin: 0 30px;  
+}
+.form-contain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.section1{
+   /* margin-left: 29.5px;*/
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    
+}
+.section2{
+   /* margin-right: 29.5px;*/
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.form-box{
+    background-color: #181818;
+    border: 0.8px solid #4A4A4A;
+    height: 35px;
+    width: 350px;
+    border-radius: 7px;
+
+}
+input.form-box{
+    font-size: 12px;
+  font-weight: 500;
+  color: white;
+  text-align: left; /* or center, right */
+  padding: 10px;
+}
+
+.profileBtn{
+    display: flex;
+    justify-content: flex-end;
+         
+}
+.profileBtn button{
+    border: 2px solid #C317B5;
+     padding: 10px 16px;
+    border-radius: 15px;
+    background-color: #C317B5; 
+    margin-right: 29.5px;
+    color: white;
+    font-weight: 500;
+
+}
+label{
+    font-style: italic;
+}
+input[type="date"] {
+   
+    color: white;
+    
+}
+select{
+    color: white;
+}
+#geno{
+    color: gray;
+  font-style: italic;
+}
+.err{
+   
+    color: red;
+    font-size: 12px;
+}
+/* Tablets (≥ 768px) */
+@media (max-width: 768px ) {
+    .form-box{
+        width: 300px;
+    } 
+}
+@media (min-width: 600px ) and (max-width: 680px) {
+    .form-box{
+        width: 240px;
+    } 
+     
+}
+@media (max-width: 599px ) {
+    .form-contain{
+        flex-direction: column;
+       justify-content: center;
+        align-items: center;
+    }
+     .section2{
+        margin-left: 65px;
+    }
+     .section1{
+        margin-left: 0px; 
+       
+    }
+    .form-box{
+        width: 220px;
+    }
+    .section1 label , .section2 label{
+        font-size: 12px;
+        text-align:  left;
+    }
+}
